@@ -58,7 +58,7 @@ Attach this policy under **Permissions → Bucket Policy**:
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
+      "Resource": "arn:aws:s3:::webpage-with-git-actions/*"
     }
   ]
 }
